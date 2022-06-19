@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- CSS page link -->
+    <link rel="stylesheet" href="classwork1.css">
+
+    <!-- Google Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Rubik+Glitch&family=Tai+Heritage+Pro&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <p class="header">
+            <marquee behavior="scroll" direction="left">
+                Note: This is a simple Calculator no advanced operations will be done because right now my learnings did
+                with HTML & CSS!</marquee>
+        </p>
+
+        </div>
+    </header>
+    <div class="frame1"><br>
+        <form action="/calculator" name="calculator">
+            <p>
+                <input type="text" name="input" id="cal">
+            </p>
+            <div class="row1">
+                <button type="button" value="clear" onclick="location.reload()">Clear</button>
+                <button type="button" value="/" onclick="calculator.input.value +='/'"> / </button>
+                <button type="button" value="*" onclick="calculator.input.value +='*'">*</button>
+                <button type="button" value="-" onclick="calculator.input.value +='-'">-</button>
+            </div>
+            <div class="row2">
+                <button type="button" value="7" onclick="calculator.input.value +='7'">7</button>
+                <button type="button" value="8" onclick="calculator.input.value +='8'">8</button>
+                <button type="button" value="9" onclick="calculator.input.value +='9'">9</button>
+            </div>
+            <div class="row3">
+                <button type="button" value="4" onclick="calculator.input.value +='4'">4</button>
+                <button type="button" value="5" onclick="calculator.input.value +='5'">5</button>
+                <button type="button" value="6" onclick="calculator.input.value +='6'">6</button>
+            </div>
+
+            <div class="row4">
+                <button type="button" value="1" onclick="calculator.input.value +='1'">1</button>
+                <button type="button" value="2" onclick="calculator.input.value +='2'">2</button>
+                <button type="button" value="3" onclick="calculator.input.value +='3'">3</button>
+            </div>
+            <div class="row5">
+                <button type="button" value="0" onclick="calculator.input.value +='0'">0</button>
+            </div>
+            <div class="del">
+                <button type="button" value="." onclick="calculator.input.value +='.'">. <br>DEL</button>
+            </div>
+            <div class="plus">
+                <button type="button" value="+" onclick="calculator.input.value +='+'">+</button>
+            </div>
+            <div class="enter">
+                <button type="button" value="enter"
+                    onclick="calculator.input.value = 'Calculation Error'">Enter</button>
+            </div>
+    </div>
+    </form>
+</body>
+
+</html>

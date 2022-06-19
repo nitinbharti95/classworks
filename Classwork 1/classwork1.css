@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ /* for header styling */
+.header {
+    background-color: coral;
+    color: black;
+    font-family: 'Tai Heritage Pro', serif;
+    font-size: x-large;
+}
+
+/* here styling done for main body of calculator */
+.frame1 {
+    background-color: rgb(204, 190, 171);
+    width: 50vh;
+    height: 384px;
+    margin: auto;
+    margin-top: 50px;
+    border: 4px solid black;
+}
+
+/* from here main styling done for text area, and various buttons */
+#cal {
+    text-align: right;
+    height: 45px;
+    width: 340px;
+    margin-left: 9px;
+    margin-bottom: 19px;
+    border: 2px solid black;
+    font-size: xx-large;
+}
+
+/* first row elements styling */
+.row1 {
+    /* margin-top: 5px; */
+    margin-left: 8px;
+    margin-bottom: 7px;
+}
+
+.row1 button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 4px 5px 10px black;
+    width: 83px;
+}
+
+.row1 button:hover {
+    background-color: rgb(255, 179, 0);
+    color: #000;
+}
+
+/* second row elements styling */
+.row2 {
+    padding: 2px;
+    margin-left: 6px;
+    height: 60px;
+    margin-bottom: -5px;
+    position: relative;
+}
+
+.row2 button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 4px 5px 10px black;
+    width: 83px;
+}
+
+.row2 button:hover {
+    background-color: rgb(255, 179, 0);
+    color: #000;
+}
+
+/* third row elements styling */
+.row3 button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 4px 5px 10px black;
+    width: 83px;
+}
+.row3 button:hover {
+    background-color: rgb(255, 179, 0);
+    color: #000;
+}
+.row3 {
+    padding: 2px;
+    margin-left: 6px;
+    height: 60px;
+    margin-bottom: -5px;
+    position: relative;
+}
+
+/* fourth row elements styling */
+.row4 button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 4px 5px 10px black;
+    width: 83px;
+}
+.row4 button:hover {
+    background-color: rgb(255, 179, 0);
+    color: #000;
+}
+.row4 {
+    padding: 2px;
+    margin-left: 6px;
+    height: 60px;
+}
+
+/* fifth row elements styling */
+.row5 button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 4px 5px 10px black;
+    width: 169px;
+}
+.row5 button:hover {
+    background-color: rgb(255, 179, 0);
+    color: #000;
+}
+.row5 {
+    padding: 2px;
+    margin-left: 6px;
+    height: 60px;
+    margin-top: -5px;
+}
+
+ /* styling  for "+" button */
+.plus button {
+    border: 0;
+    line-height: 5.37;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 4px 5px 10px black;
+    width: 83px;
+}
+
+.plus button:hover {
+    background-color: rgb(255, 179, 0);
+    color: #000;
+}
+
+.plus {
+    position: relative;
+    top: -289px; left: 270px;
+}
+
+/* styling  for "." button */
+.del button {
+    border: 0;
+    line-height: 1.25;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 4px 5px 10px black;
+    width: 83px;
+}
+.del button:hover {
+    background-color: rgb(255, 179, 0);
+    color: #000;
+}
+.del {
+    position: relative;
+    top: -62px; left: 183px;
+}
+
+/* styling  for "Enter" button */
+.enter button {
+    border: 0;
+    line-height: 5.59;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 4px 5px 10px black;
+    width: 83px;
+}
+.enter button:hover {
+    background-color: rgb(255, 179, 0);
+    color: #000;
+}
+.enter {
+    position: relative;
+    top: -280px; left: 271px;
+}
